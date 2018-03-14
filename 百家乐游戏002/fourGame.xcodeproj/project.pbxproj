@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78421FC61E90591200E14954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FC51E90591200E14954 /* main.m */; };
+		78421FC91E90591200E14954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FC81E90591200E14954 /* AppDelegate.m */; };
+		78421FCC1E90591200E14954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FCB1E90591200E14954 /* ViewController.m */; };
+		78421FCF1E90591200E14954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78421FCD1E90591200E14954 /* Main.storyboard */; };
+		78421FD11E90591200E14954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78421FD01E90591200E14954 /* Assets.xcassets */; };
+		78421FD41E90591200E14954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78421FD21E90591200E14954 /* LaunchScreen.storyboard */; };
+		78421FDF1E90591200E14954 /* fourGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FDE1E90591200E14954 /* fourGameTests.m */; };
+		78421FEA1E90591200E14954 /* fourGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FE91E90591200E14954 /* fourGameUITests.m */; };
+		78421FFA1E90641900E14954 /* GameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FF81E90641900E14954 /* GameVC.m */; };
+		78421FFB1E90641900E14954 /* GameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78421FF91E90641900E14954 /* GameVC.xib */; };
+		784220001E90D68F00E14954 /* UIView+TappedBlcok.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FFF1E90D68F00E14954 /* UIView+TappedBlcok.m */; };
+		784220181E90D6D400E14954 /* ba_bwin_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220021E90D6D400E14954 /* ba_bwin_cn.wav */; };
+		784220191E90D6D400E14954 /* ba_tiwin_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220031E90D6D400E14954 /* ba_tiwin_cn.wav */; };
+		7842201A1E90D6D400E14954 /* Bankers_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220041E90D6D400E14954 /* Bankers_cn.wav */; };
+		7842201B1E90D6D400E14954 /* c_place_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220051E90D6D400E14954 /* c_place_cn.wav */; };
+		7842201C1E90D6D400E14954 /* c_playerwin_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220061E90D6D400E14954 /* c_playerwin_cn.wav */; };
+		7842201D1E90D6D400E14954 /* ce_chip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220071E90D6D400E14954 /* ce_chip.wav */; };
+		7842201E1E90D6D400E14954 /* no_0_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220081E90D6D400E14954 /* no_0_cn.wav */; };
+		7842201F1E90D6D400E14954 /* no_1_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220091E90D6D400E14954 /* no_1_cn.wav */; };
+		784220201E90D6D400E14954 /* no_2_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7842200A1E90D6D400E14954 /* no_2_cn.wav */; };
+		784220211E90D6D400E14954 /* no_3_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7842200B1E90D6D400E14954 /* no_3_cn.wav */; };
+		784220221E90D6D400E14954 /* no_4_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7842200C1E90D6D400E14954 /* no_4_cn.wav */; };
+		784220231E90D6D400E14954 /* no_5_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7842200D1E90D6D400E14954 /* no_5_cn.wav */; };
+		784220241E90D6D400E14954 /* no_6_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7842200E1E90D6D400E14954 /* no_6_cn.wav */; };
+		784220251E90D6D400E14954 /* no_7_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7842200F1E90D6D400E14954 /* no_7_cn.wav */; };
+		784220261E90D6D400E14954 /* no_8_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220101E90D6D400E14954 /* no_8_cn.wav */; };
+		784220271E90D6D400E14954 /* no_9_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220111E90D6D400E14954 /* no_9_cn.wav */; };
+		784220281E90D6D400E14954 /* Players_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220121E90D6D400E14954 /* Players_cn.wav */; };
+		784220291E90D6D400E14954 /* plose_money.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220131E90D6D400E14954 /* plose_money.wav */; };
+		7842202A1E90D6D400E14954 /* pwin_money.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220141E90D6D400E14954 /* pwin_money.wav */; };
+		7842202B1E90D6D400E14954 /* squeeze_open.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220151E90D6D400E14954 /* squeeze_open.wav */; };
+		7842202C1E90D6D400E14954 /* WelcomeToTheTable_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220161E90D6D400E14954 /* WelcomeToTheTable_cn.wav */; };
+		7842202D1E90D6D400E14954 /* 背景音乐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 784220171E90D6D400E14954 /* 背景音乐.mp3 */; };
+		784220301E90E22C00E14954 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7842202F1E90E22C00E14954 /* Tool.m */; };
+		784220341E91E0DB00E14954 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 784220321E91E0DB00E14954 /* DetailVC.m */; };
+		784220351E91E0DB00E14954 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 784220331E91E0DB00E14954 /* DetailVC.xib */; };
+		784220381E925CCB00E14954 /* ba_1c2b_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220361E925CCB00E14954 /* ba_1c2b_cn.wav */; };
+		784220391E925CCB00E14954 /* ba_1c2p_cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 784220371E925CCB00E14954 /* ba_1c2p_cn.wav */; };
+		7842203B1E92764900E14954 /* Nightwish - Nemo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7842203A1E92764900E14954 /* Nightwish - Nemo.mp3 */; };
+		7842203D1E9276B300E14954 /* 理查德.克莱德曼 - Coup De Coeur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7842203C1E9276B300E14954 /* 理查德.克莱德曼 - Coup De Coeur.mp3 */; };
+		8D09B21B1EF5651E00AD4488 /* EnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D09B2191EF5651E00AD4488 /* EnterViewController.m */; };
+		8D09B21C1EF5651E00AD4488 /* EnterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D09B21A1EF5651E00AD4488 /* EnterViewController.xib */; };
+		8DA39D011EFF6FC400335EA7 /* 尾音.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DA39D001EFF6FC400335EA7 /* 尾音.wav */; };
+		8DA39D051EFF70D400335EA7 /* 下注.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DA39D041EFF70D400335EA7 /* 下注.wav */; };
+		8DA39D071EFF716000335EA7 /* 发牌.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DA39D061EFF716000335EA7 /* 发牌.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78421FDB1E90591200E14954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78421FB91E90591200E14954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78421FC01E90591200E14954;
+			remoteInfo = fourGame;
+		};
+		78421FE61E90591200E14954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78421FB91E90591200E14954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78421FC01E90591200E14954;
+			remoteInfo = fourGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78421FC11E90591200E14954 /* fourGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fourGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78421FC51E90591200E14954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78421FC71E90591200E14954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78421FC81E90591200E14954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78421FCA1E90591200E14954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78421FCB1E90591200E14954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78421FCE1E90591200E14954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78421FD01E90591200E14954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78421FD31E90591200E14954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78421FD51E90591200E14954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78421FDA1E90591200E14954 /* fourGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fourGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78421FDE1E90591200E14954 /* fourGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fourGameTests.m; sourceTree = "<group>"; };
+		78421FE01E90591200E14954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78421FE51E90591200E14954 /* fourGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fourGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78421FE91E90591200E14954 /* fourGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fourGameUITests.m; sourceTree = "<group>"; };
+		78421FEB1E90591200E14954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78421FF71E90641900E14954 /* GameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameVC.h; sourceTree = "<group>"; };
+		78421FF81E90641900E14954 /* GameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameVC.m; sourceTree = "<group>"; };
+		78421FF91E90641900E14954 /* GameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameVC.xib; sourceTree = "<group>"; };
+		78421FFD1E90D68F00E14954 /* CCTapped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTapped.h; sourceTree = "<group>"; };
+		78421FFE1E90D68F00E14954 /* UIView+TappedBlcok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TappedBlcok.h"; sourceTree = "<group>"; };
+		78421FFF1E90D68F00E14954 /* UIView+TappedBlcok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TappedBlcok.m"; sourceTree = "<group>"; };
+		784220021E90D6D400E14954 /* ba_bwin_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ba_bwin_cn.wav; sourceTree = "<group>"; };
+		784220031E90D6D400E14954 /* ba_tiwin_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ba_tiwin_cn.wav; sourceTree = "<group>"; };
+		784220041E90D6D400E14954 /* Bankers_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bankers_cn.wav; sourceTree = "<group>"; };
+		784220051E90D6D400E14954 /* c_place_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c_place_cn.wav; sourceTree = "<group>"; };
+		784220061E90D6D400E14954 /* c_playerwin_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = c_playerwin_cn.wav; sourceTree = "<group>"; };
+		784220071E90D6D400E14954 /* ce_chip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ce_chip.wav; sourceTree = "<group>"; };
+		784220081E90D6D400E14954 /* no_0_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_0_cn.wav; sourceTree = "<group>"; };
+		784220091E90D6D400E14954 /* no_1_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_1_cn.wav; sourceTree = "<group>"; };
+		7842200A1E90D6D400E14954 /* no_2_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_2_cn.wav; sourceTree = "<group>"; };
+		7842200B1E90D6D400E14954 /* no_3_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_3_cn.wav; sourceTree = "<group>"; };
+		7842200C1E90D6D400E14954 /* no_4_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_4_cn.wav; sourceTree = "<group>"; };
+		7842200D1E90D6D400E14954 /* no_5_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_5_cn.wav; sourceTree = "<group>"; };
+		7842200E1E90D6D400E14954 /* no_6_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_6_cn.wav; sourceTree = "<group>"; };
+		7842200F1E90D6D400E14954 /* no_7_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_7_cn.wav; sourceTree = "<group>"; };
+		784220101E90D6D400E14954 /* no_8_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_8_cn.wav; sourceTree = "<group>"; };
+		784220111E90D6D400E14954 /* no_9_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = no_9_cn.wav; sourceTree = "<group>"; };
+		784220121E90D6D400E14954 /* Players_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Players_cn.wav; sourceTree = "<group>"; };
+		784220131E90D6D400E14954 /* plose_money.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = plose_money.wav; sourceTree = "<group>"; };
+		784220141E90D6D400E14954 /* pwin_money.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pwin_money.wav; sourceTree = "<group>"; };
+		784220151E90D6D400E14954 /* squeeze_open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = squeeze_open.wav; sourceTree = "<group>"; };
+		784220161E90D6D400E14954 /* WelcomeToTheTable_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WelcomeToTheTable_cn.wav; sourceTree = "<group>"; };
+		784220171E90D6D400E14954 /* 背景音乐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景音乐.mp3"; sourceTree = "<group>"; };
+		7842202E1E90E22C00E14954 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		7842202F1E90E22C00E14954 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		784220311E91E0DB00E14954 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		784220321E91E0DB00E14954 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		784220331E91E0DB00E14954 /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		784220361E925CCB00E14954 /* ba_1c2b_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ba_1c2b_cn.wav; sourceTree = "<group>"; };
+		784220371E925CCB00E14954 /* ba_1c2p_cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ba_1c2p_cn.wav; sourceTree = "<group>"; };
+		7842203A1E92764900E14954 /* Nightwish - Nemo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nightwish - Nemo.mp3"; sourceTree = "<group>"; };
+		7842203C1E9276B300E14954 /* 理查德.克莱德曼 - Coup De Coeur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "理查德.克莱德曼 - Coup De Coeur.mp3"; sourceTree = "<group>"; };
+		8D09B2181EF5651E00AD4488 /* EnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterViewController.h; sourceTree = "<group>"; };
+		8D09B2191EF5651E00AD4488 /* EnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterViewController.m; sourceTree = "<group>"; };
+		8D09B21A1EF5651E00AD4488 /* EnterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterViewController.xib; sourceTree = "<group>"; };
+		8DA39D001EFF6FC400335EA7 /* 尾音.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "尾音.wav"; sourceTree = "<group>"; };
+		8DA39D041EFF70D400335EA7 /* 下注.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "下注.wav"; sourceTree = "<group>"; };
+		8DA39D061EFF716000335EA7 /* 发牌.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "发牌.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78421FBE1E90591200E14954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78421FD71E90591200E14954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78421FE21E90591200E14954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78421FB81E90591200E14954 = {
+			isa = PBXGroup;
+			children = (
+				78421FC31E90591200E14954 /* fourGame */,
+				78421FDD1E90591200E14954 /* fourGameTests */,
+				78421FE81E90591200E14954 /* fourGameUITests */,
+				78421FC21E90591200E14954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78421FC21E90591200E14954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78421FC11E90591200E14954 /* fourGame.app */,
+				78421FDA1E90591200E14954 /* fourGameTests.xctest */,
+				78421FE51E90591200E14954 /* fourGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78421FC31E90591200E14954 /* fourGame */ = {
+			isa = PBXGroup;
+			children = (
+				784220011E90D6CB00E14954 /* Mp3 */,
+				78421FFC1E90D68F00E14954 /* CCTapped */,
+				78421FC71E90591200E14954 /* AppDelegate.h */,
+				78421FC81E90591200E14954 /* AppDelegate.m */,
+				8D09B2181EF5651E00AD4488 /* EnterViewController.h */,
+				8D09B2191EF5651E00AD4488 /* EnterViewController.m */,
+				8D09B21A1EF5651E00AD4488 /* EnterViewController.xib */,
+				7842202E1E90E22C00E14954 /* Tool.h */,
+				7842202F1E90E22C00E14954 /* Tool.m */,
+				78421FCA1E90591200E14954 /* ViewController.h */,
+				78421FCB1E90591200E14954 /* ViewController.m */,
+				78421FF71E90641900E14954 /* GameVC.h */,
+				78421FF81E90641900E14954 /* GameVC.m */,
+				78421FF91E90641900E14954 /* GameVC.xib */,
+				784220311E91E0DB00E14954 /* DetailVC.h */,
+				784220321E91E0DB00E14954 /* DetailVC.m */,
+				784220331E91E0DB00E14954 /* DetailVC.xib */,
+				78421FCD1E90591200E14954 /* Main.storyboard */,
+				78421FD01E90591200E14954 /* Assets.xcassets */,
+				78421FD21E90591200E14954 /* LaunchScreen.storyboard */,
+				78421FD51E90591200E14954 /* Info.plist */,
+				78421FC41E90591200E14954 /* Supporting Files */,
+			);
+			path = fourGame;
+			sourceTree = "<group>";
+		};
+		78421FC41E90591200E14954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78421FC51E90591200E14954 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78421FDD1E90591200E14954 /* fourGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				78421FDE1E90591200E14954 /* fourGameTests.m */,
+				78421FE01E90591200E14954 /* Info.plist */,
+			);
+			path = fourGameTests;
+			sourceTree = "<group>";
+		};
+		78421FE81E90591200E14954 /* fourGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78421FE91E90591200E14954 /* fourGameUITests.m */,
+				78421FEB1E90591200E14954 /* Info.plist */,
+			);
+			path = fourGameUITests;
+			sourceTree = "<group>";
+		};
+		78421FFC1E90D68F00E14954 /* CCTapped */ = {
+			isa = PBXGroup;
+			children = (
+				78421FFD1E90D68F00E14954 /* CCTapped.h */,
+				78421FFE1E90D68F00E14954 /* UIView+TappedBlcok.h */,
+				78421FFF1E90D68F00E14954 /* UIView+TappedBlcok.m */,
+			);
+			path = CCTapped;
+			sourceTree = "<group>";
+		};
+		784220011E90D6CB00E14954 /* Mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				8DA39D001EFF6FC400335EA7 /* 尾音.wav */,
+				7842203C1E9276B300E14954 /* 理查德.克莱德曼 - Coup De Coeur.mp3 */,
+				7842203A1E92764900E14954 /* Nightwish - Nemo.mp3 */,
+				784220361E925CCB00E14954 /* ba_1c2b_cn.wav */,
+				784220371E925CCB00E14954 /* ba_1c2p_cn.wav */,
+				784220021E90D6D400E14954 /* ba_bwin_cn.wav */,
+				784220031E90D6D400E14954 /* ba_tiwin_cn.wav */,
+				784220041E90D6D400E14954 /* Bankers_cn.wav */,
+				784220051E90D6D400E14954 /* c_place_cn.wav */,
+				784220061E90D6D400E14954 /* c_playerwin_cn.wav */,
+				784220071E90D6D400E14954 /* ce_chip.wav */,
+				784220081E90D6D400E14954 /* no_0_cn.wav */,
+				784220091E90D6D400E14954 /* no_1_cn.wav */,
+				7842200A1E90D6D400E14954 /* no_2_cn.wav */,
+				7842200B1E90D6D400E14954 /* no_3_cn.wav */,
+				7842200C1E90D6D400E14954 /* no_4_cn.wav */,
+				7842200D1E90D6D400E14954 /* no_5_cn.wav */,
+				7842200E1E90D6D400E14954 /* no_6_cn.wav */,
+				7842200F1E90D6D400E14954 /* no_7_cn.wav */,
+				784220101E90D6D400E14954 /* no_8_cn.wav */,
+				784220111E90D6D400E14954 /* no_9_cn.wav */,
+				8DA39D061EFF716000335EA7 /* 发牌.wav */,
+				8DA39D041EFF70D400335EA7 /* 下注.wav */,
+				784220121E90D6D400E14954 /* Players_cn.wav */,
+				784220131E90D6D400E14954 /* plose_money.wav */,
+				784220141E90D6D400E14954 /* pwin_money.wav */,
+				784220151E90D6D400E14954 /* squeeze_open.wav */,
+				784220161E90D6D400E14954 /* WelcomeToTheTable_cn.wav */,
+				784220171E90D6D400E14954 /* 背景音乐.mp3 */,
+			);
+			name = Mp3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78421FC01E90591200E14954 /* fourGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78421FEE1E90591200E14954 /* Build configuration list for PBXNativeTarget "fourGame" */;
+			buildPhases = (
+				78421FBD1E90591200E14954 /* Sources */,
+				78421FBE1E90591200E14954 /* Frameworks */,
+				78421FBF1E90591200E14954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fourGame;
+			productName = fourGame;
+			productReference = 78421FC11E90591200E14954 /* fourGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78421FD91E90591200E14954 /* fourGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78421FF11E90591200E14954 /* Build configuration list for PBXNativeTarget "fourGameTests" */;
+			buildPhases = (
+				78421FD61E90591200E14954 /* Sources */,
+				78421FD71E90591200E14954 /* Frameworks */,
+				78421FD81E90591200E14954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78421FDC1E90591200E14954 /* PBXTargetDependency */,
+			);
+			name = fourGameTests;
+			productName = fourGameTests;
+			productReference = 78421FDA1E90591200E14954 /* fourGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78421FE41E90591200E14954 /* fourGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78421FF41E90591200E14954 /* Build configuration list for PBXNativeTarget "fourGameUITests" */;
+			buildPhases = (
+				78421FE11E90591200E14954 /* Sources */,
+				78421FE21E90591200E14954 /* Frameworks */,
+				78421FE31E90591200E14954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78421FE71E90591200E14954 /* PBXTargetDependency */,
+			);
+			name = fourGameUITests;
+			productName = fourGameUITests;
+			productReference = 78421FE51E90591200E14954 /* fourGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78421FB91E90591200E14954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = rmbp840;
+				TargetAttributes = {
+					78421FC01E90591200E14954 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AFTSWR7B63;
+						ProvisioningStyle = Automatic;
+					};
+					78421FD91E90591200E14954 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78421FC01E90591200E14954;
+					};
+					78421FE41E90591200E14954 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78421FC01E90591200E14954;
+					};
+				};
+			};
+			buildConfigurationList = 78421FBC1E90591200E14954 /* Build configuration list for PBXProject "fourGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78421FB81E90591200E14954;
+			productRefGroup = 78421FC21E90591200E14954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78421FC01E90591200E14954 /* fourGame */,
+				78421FD91E90591200E14954 /* fourGameTests */,
+				78421FE41E90591200E14954 /* fourGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78421FBF1E90591200E14954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784220251E90D6D400E14954 /* no_7_cn.wav in Resources */,
+				7842201D1E90D6D400E14954 /* ce_chip.wav in Resources */,
+				784220391E925CCB00E14954 /* ba_1c2p_cn.wav in Resources */,
+				7842201E1E90D6D400E14954 /* no_0_cn.wav in Resources */,
+				78421FD41E90591200E14954 /* LaunchScreen.storyboard in Resources */,
+				8D09B21C1EF5651E00AD4488 /* EnterViewController.xib in Resources */,
+				784220271E90D6D400E14954 /* no_9_cn.wav in Resources */,
+				7842201B1E90D6D400E14954 /* c_place_cn.wav in Resources */,
+				784220211E90D6D400E14954 /* no_3_cn.wav in Resources */,
+				7842201F1E90D6D400E14954 /* no_1_cn.wav in Resources */,
+				7842203B1E92764900E14954 /* Nightwish - Nemo.mp3 in Resources */,
+				78421FD11E90591200E14954 /* Assets.xcassets in Resources */,
+				784220201E90D6D400E14954 /* no_2_cn.wav in Resources */,
+				784220351E91E0DB00E14954 /* DetailVC.xib in Resources */,
+				784220231E90D6D400E14954 /* no_5_cn.wav in Resources */,
+				8DA39D051EFF70D400335EA7 /* 下注.wav in Resources */,
+				784220191E90D6D400E14954 /* ba_tiwin_cn.wav in Resources */,
+				784220281E90D6D400E14954 /* Players_cn.wav in Resources */,
+				8DA39D011EFF6FC400335EA7 /* 尾音.wav in Resources */,
+				78421FFB1E90641900E14954 /* GameVC.xib in Resources */,
+				7842202A1E90D6D400E14954 /* pwin_money.wav in Resources */,
+				784220381E925CCB00E14954 /* ba_1c2b_cn.wav in Resources */,
+				784220221E90D6D400E14954 /* no_4_cn.wav in Resources */,
+				8DA39D071EFF716000335EA7 /* 发牌.wav in Resources */,
+				78421FCF1E90591200E14954 /* Main.storyboard in Resources */,
+				7842201C1E90D6D400E14954 /* c_playerwin_cn.wav in Resources */,
+				784220261E90D6D400E14954 /* no_8_cn.wav in Resources */,
+				7842201A1E90D6D400E14954 /* Bankers_cn.wav in Resources */,
+				7842202D1E90D6D400E14954 /* 背景音乐.mp3 in Resources */,
+				784220291E90D6D400E14954 /* plose_money.wav in Resources */,
+				784220241E90D6D400E14954 /* no_6_cn.wav in Resources */,
+				7842202C1E90D6D400E14954 /* WelcomeToTheTable_cn.wav in Resources */,
+				784220181E90D6D400E14954 /* ba_bwin_cn.wav in Resources */,
+				7842203D1E9276B300E14954 /* 理查德.克莱德曼 - Coup De Coeur.mp3 in Resources */,
+				7842202B1E90D6D400E14954 /* squeeze_open.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78421FD81E90591200E14954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78421FE31E90591200E14954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78421FBD1E90591200E14954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78421FCC1E90591200E14954 /* ViewController.m in Sources */,
+				78421FC91E90591200E14954 /* AppDelegate.m in Sources */,
+				78421FFA1E90641900E14954 /* GameVC.m in Sources */,
+				784220341E91E0DB00E14954 /* DetailVC.m in Sources */,
+				784220301E90E22C00E14954 /* Tool.m in Sources */,
+				8D09B21B1EF5651E00AD4488 /* EnterViewController.m in Sources */,
+				78421FC61E90591200E14954 /* main.m in Sources */,
+				784220001E90D68F00E14954 /* UIView+TappedBlcok.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78421FD61E90591200E14954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78421FDF1E90591200E14954 /* fourGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78421FE11E90591200E14954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78421FEA1E90591200E14954 /* fourGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78421FDC1E90591200E14954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78421FC01E90591200E14954 /* fourGame */;
+			targetProxy = 78421FDB1E90591200E14954 /* PBXContainerItemProxy */;
+		};
+		78421FE71E90591200E14954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78421FC01E90591200E14954 /* fourGame */;
+			targetProxy = 78421FE61E90591200E14954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78421FCD1E90591200E14954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78421FCE1E90591200E14954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78421FD21E90591200E14954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78421FD31E90591200E14954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78421FEC1E90591200E14954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78421FED1E90591200E14954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78421FEF1E90591200E14954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFTSWR7B63;
+				INFOPLIST_FILE = fourGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhongjiceshi.ceshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78421FF01E90591200E14954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFTSWR7B63;
+				INFOPLIST_FILE = fourGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhongjiceshi.ceshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78421FF21E90591200E14954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fourGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongda.fourGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fourGame.app/fourGame";
+			};
+			name = Debug;
+		};
+		78421FF31E90591200E14954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fourGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongda.fourGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fourGame.app/fourGame";
+			};
+			name = Release;
+		};
+		78421FF51E90591200E14954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fourGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongda.fourGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fourGame;
+			};
+			name = Debug;
+		};
+		78421FF61E90591200E14954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fourGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongda.fourGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fourGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78421FBC1E90591200E14954 /* Build configuration list for PBXProject "fourGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78421FEC1E90591200E14954 /* Debug */,
+				78421FED1E90591200E14954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78421FEE1E90591200E14954 /* Build configuration list for PBXNativeTarget "fourGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78421FEF1E90591200E14954 /* Debug */,
+				78421FF01E90591200E14954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78421FF11E90591200E14954 /* Build configuration list for PBXNativeTarget "fourGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78421FF21E90591200E14954 /* Debug */,
+				78421FF31E90591200E14954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78421FF41E90591200E14954 /* Build configuration list for PBXNativeTarget "fourGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78421FF51E90591200E14954 /* Debug */,
+				78421FF61E90591200E14954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78421FB91E90591200E14954 /* Project object */;
+}
