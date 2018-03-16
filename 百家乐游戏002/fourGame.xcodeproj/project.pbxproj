@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188895DE20590A8500A47821 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895DC20590A8400A47821 /* MBProgressHUD.m */; };
+		188895EC20591E4800A47821 /* SDKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895EB20591E4800A47821 /* SDKSwitch.m */; };
+		188895F02059219500A47821 /* SDKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895EE2059219500A47821 /* SDKBaseViewController.m */; };
+		188895F12059219500A47821 /* SDKBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188895EF2059219500A47821 /* SDKBaseViewController.xib */; };
+		188895F52059281000A47821 /* SDKShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895F32059281000A47821 /* SDKShowViewController.m */; };
+		188895F62059281000A47821 /* SDKShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188895F42059281000A47821 /* SDKShowViewController.xib */; };
 		78421FC61E90591200E14954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FC51E90591200E14954 /* main.m */; };
 		78421FC91E90591200E14954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FC81E90591200E14954 /* AppDelegate.m */; };
 		78421FCC1E90591200E14954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78421FCB1E90591200E14954 /* ViewController.m */; };
@@ -72,6 +78,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188895DC20590A8400A47821 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		188895DD20590A8400A47821 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		188895EA20591E4800A47821 /* SDKSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKSwitch.h; sourceTree = "<group>"; };
+		188895EB20591E4800A47821 /* SDKSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKSwitch.m; sourceTree = "<group>"; };
+		188895ED2059219500A47821 /* SDKBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKBaseViewController.h; sourceTree = "<group>"; };
+		188895EE2059219500A47821 /* SDKBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKBaseViewController.m; sourceTree = "<group>"; };
+		188895EF2059219500A47821 /* SDKBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDKBaseViewController.xib; sourceTree = "<group>"; };
+		188895F22059281000A47821 /* SDKShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKShowViewController.h; sourceTree = "<group>"; };
+		188895F32059281000A47821 /* SDKShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKShowViewController.m; sourceTree = "<group>"; };
+		188895F42059281000A47821 /* SDKShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDKShowViewController.xib; sourceTree = "<group>"; };
+		188895F720592A9E00A47821 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		78421FC11E90591200E14954 /* fourGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fourGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78421FC51E90591200E14954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78421FC71E90591200E14954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,6 +175,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188895DB20590A8400A47821 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				188895DC20590A8400A47821 /* MBProgressHUD.m */,
+				188895DD20590A8400A47821 /* MBProgressHUD.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		188895DF20590D6500A47821 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				188895EA20591E4800A47821 /* SDKSwitch.h */,
+				188895EB20591E4800A47821 /* SDKSwitch.m */,
+				188895F720592A9E00A47821 /* Macros.h */,
+				188895ED2059219500A47821 /* SDKBaseViewController.h */,
+				188895EE2059219500A47821 /* SDKBaseViewController.m */,
+				188895EF2059219500A47821 /* SDKBaseViewController.xib */,
+				188895F22059281000A47821 /* SDKShowViewController.h */,
+				188895F32059281000A47821 /* SDKShowViewController.m */,
+				188895F42059281000A47821 /* SDKShowViewController.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		78421FB81E90591200E14954 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +223,8 @@
 		78421FC31E90591200E14954 /* fourGame */ = {
 			isa = PBXGroup;
 			children = (
+				188895DF20590D6500A47821 /* Custom */,
+				188895DB20590A8400A47821 /* lib */,
 				784220011E90D6CB00E14954 /* Mp3 */,
 				78421FFC1E90D68F00E14954 /* CCTapped */,
 				78421FC71E90591200E14954 /* AppDelegate.h */,
@@ -346,7 +390,7 @@
 				TargetAttributes = {
 					78421FC01E90591200E14954 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AFTSWR7B63;
+						DevelopmentTeam = ECVCAG6ZK6;
 						ProvisioningStyle = Automatic;
 					};
 					78421FD91E90591200E14954 = {
@@ -387,12 +431,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				784220251E90D6D400E14954 /* no_7_cn.wav in Resources */,
+				188895F12059219500A47821 /* SDKBaseViewController.xib in Resources */,
 				7842201D1E90D6D400E14954 /* ce_chip.wav in Resources */,
 				784220391E925CCB00E14954 /* ba_1c2p_cn.wav in Resources */,
 				7842201E1E90D6D400E14954 /* no_0_cn.wav in Resources */,
 				78421FD41E90591200E14954 /* LaunchScreen.storyboard in Resources */,
 				8D09B21C1EF5651E00AD4488 /* EnterViewController.xib in Resources */,
 				784220271E90D6D400E14954 /* no_9_cn.wav in Resources */,
+				188895F62059281000A47821 /* SDKShowViewController.xib in Resources */,
 				7842201B1E90D6D400E14954 /* c_place_cn.wav in Resources */,
 				784220211E90D6D400E14954 /* no_3_cn.wav in Resources */,
 				7842201F1E90D6D400E14954 /* no_1_cn.wav in Resources */,
@@ -446,12 +492,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				78421FCC1E90591200E14954 /* ViewController.m in Sources */,
+				188895F02059219500A47821 /* SDKBaseViewController.m in Sources */,
 				78421FC91E90591200E14954 /* AppDelegate.m in Sources */,
 				78421FFA1E90641900E14954 /* GameVC.m in Sources */,
+				188895F52059281000A47821 /* SDKShowViewController.m in Sources */,
 				784220341E91E0DB00E14954 /* DetailVC.m in Sources */,
+				188895DE20590A8500A47821 /* MBProgressHUD.m in Sources */,
 				784220301E90E22C00E14954 /* Tool.m in Sources */,
 				8D09B21B1EF5651E00AD4488 /* EnterViewController.m in Sources */,
 				78421FC61E90591200E14954 /* main.m in Sources */,
+				188895EC20591E4800A47821 /* SDKSwitch.m in Sources */,
 				784220001E90D68F00E14954 /* UIView+TappedBlcok.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -588,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -599,7 +649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AFTSWR7B63;
+				DEVELOPMENT_TEAM = ECVCAG6ZK6;
 				INFOPLIST_FILE = fourGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -612,7 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AFTSWR7B63;
+				DEVELOPMENT_TEAM = ECVCAG6ZK6;
 				INFOPLIST_FILE = fourGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

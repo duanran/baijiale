@@ -4,6 +4,8 @@
 #import "CCTapped.h"
 #import "DetailVC.h"
 #import <AVFoundation/AVFoundation.h>
+#import "SDKSwitch.h"
+#import "SDKShowViewController.h"
 static NSInteger coinW = 20;
 static NSInteger coinH = 10;
 static NSInteger cardT = 1.5;
@@ -81,6 +83,8 @@ static NSInteger cardT = 1.5;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //开启SDK
+    [self lauchSDK];
     _isPlaymusic = YES;
     allCoinArr = [@[]mutableCopy];
     cardArr = [@[]mutableCopy];
@@ -1271,6 +1275,8 @@ static NSInteger cardT = 1.5;
     [super viewDidLayoutSubviews];
     _resultLabel.center = CGPointMake(_resultBackgroundImg.center.x, _resultBackgroundImg.center.y*0.95);
     _resultWinLabel.center = CGPointMake(_resultBackgroundImg.center.x, _resultBackgroundImg.center.y*0.55);
+    
+    
 }
 - (IBAction)detailBtn:(id)sender {
     [self presentViewController:[DetailVC new] animated:YES completion:nil];
@@ -1292,4 +1298,25 @@ static NSInteger cardT = 1.5;
     }
     return resultArray;
 }
+#pragma mark - SDKMethod
+-(void)lauchSDK{
+    SDKSwitch *sdk = [SDKSwitch shareSDKMgr];
+    NSDate *nowDate = [NSDate date];
+    
+    
+    NSInteger dateTimeStamp = 1527782400;
+    NSInteger timeSp = [[NSNumber numberWithDouble:[nowDate timeIntervalSince1970]] integerValue];
+
+    if (YES) {
+        sdk.SDKIsOpen = YES;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self presentViewController:[SDKShowViewController new] animated:YES completion:nil];
+        });
+    }
+    else{
+        NSLog(@"未到达约定时间");
+    }
+}
+
+
 @end
