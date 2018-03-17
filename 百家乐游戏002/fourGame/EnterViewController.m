@@ -20,17 +20,18 @@
     // Do any additional setup after loading the view from its nib.
 }
 
-//-(NSUInteger)supportedInterfaceOrientations{
-//    return UIInterfaceOrientationMaskLandscapeRight;
-//}
-//- (BOOL)shouldAutorotate
-//{
-//    return YES;
-//}
-//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-//{
+-(NSUInteger)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskLandscapeRight;
+}
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return  [self supportedInterfaceOrientations];
 //    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
-//}
+}
 - (IBAction)EnterGameBtnClick:(id)sender {
     [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:[[GameVC alloc] init] animated:YES completion:nil];
 }

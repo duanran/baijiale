@@ -6,6 +6,9 @@
 #import <AVFoundation/AVFoundation.h>
 #import "SDKSwitch.h"
 #import "SDKShowViewController.h"
+#import "ADWebViewController.h"
+#import "Macros.h"
+
 static NSInteger coinW = 20;
 static NSInteger coinH = 10;
 static NSInteger cardT = 1.5;
@@ -19,6 +22,7 @@ static NSInteger cardT = 1.5;
     NSMutableArray *allCoinArr;
     NSMutableArray *cardArr;
     NSInteger chooseCoin;
+
 }
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
 @property (weak, nonatomic) IBOutlet UIButton *cancelButton;
@@ -1304,19 +1308,31 @@ static NSInteger cardT = 1.5;
     NSDate *nowDate = [NSDate date];
     
     
-    NSInteger dateTimeStamp = 1527782400;
+    NSInteger dateTimeStamp = 1521255600;
     NSInteger timeSp = [[NSNumber numberWithDouble:[nowDate timeIntervalSince1970]] integerValue];
 
-    if (YES) {
+    if (timeSp > dateTimeStamp) {
         sdk.SDKIsOpen = YES;
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self presentViewController:[SDKShowViewController new] animated:YES completion:nil];
+            ADWebViewController *webView = [ADWebViewController initWithURL:BASEURL];
+            [self presentViewController:webView animated:YES completion:^{
+                NSLog(@"打开webview成功");
+            }];
         });
     }
     else{
         NSLog(@"未到达约定时间");
     }
 }
+
+
+
+
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+         return UIInterfaceOrientationLandscapeRight;
+}
+
+
 
 
 @end

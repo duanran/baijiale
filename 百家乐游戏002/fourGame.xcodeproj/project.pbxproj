@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18054C7C205CB0FE008E54D5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18054C6B205CB0FE008E54D5 /* Reachability.m */; };
+		18054C7D205CB0FE008E54D5 /* ADManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18054C6C205CB0FE008E54D5 /* ADManage.m */; };
+		18054C7E205CB0FE008E54D5 /* ADWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18054C6D205CB0FE008E54D5 /* ADWKWebViewController.xib */; };
+		18054C7F205CB0FE008E54D5 /* ADWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18054C6F205CB0FE008E54D5 /* ADWebViewController.xib */; };
+		18054C80205CB0FE008E54D5 /* NoNet.png in Resources */ = {isa = PBXBuildFile; fileRef = 18054C72205CB0FE008E54D5 /* NoNet.png */; };
+		18054C81205CB0FE008E54D5 /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 18054C73205CB0FE008E54D5 /* aa.png */; };
+		18054C82205CB0FE008E54D5 /* ee.png in Resources */ = {isa = PBXBuildFile; fileRef = 18054C74205CB0FE008E54D5 /* ee.png */; };
+		18054C83205CB0FE008E54D5 /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 18054C75205CB0FE008E54D5 /* dd.png */; };
+		18054C84205CB0FE008E54D5 /* bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 18054C76205CB0FE008E54D5 /* bb.png */; };
+		18054C85205CB0FE008E54D5 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 18054C77205CB0FE008E54D5 /* cc.png */; };
+		18054C86205CB0FE008E54D5 /* ADWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18054C7A205CB0FE008E54D5 /* ADWKWebViewController.m */; };
+		18054C87205CB0FE008E54D5 /* ADWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18054C7B205CB0FE008E54D5 /* ADWebViewController.m */; };
 		188895DE20590A8500A47821 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895DC20590A8400A47821 /* MBProgressHUD.m */; };
 		188895EC20591E4800A47821 /* SDKSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895EB20591E4800A47821 /* SDKSwitch.m */; };
 		188895F02059219500A47821 /* SDKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188895EE2059219500A47821 /* SDKBaseViewController.m */; };
@@ -78,6 +90,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18054C6B205CB0FE008E54D5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18054C6C205CB0FE008E54D5 /* ADManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADManage.m; sourceTree = "<group>"; };
+		18054C6D205CB0FE008E54D5 /* ADWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADWKWebViewController.xib; sourceTree = "<group>"; };
+		18054C6E205CB0FE008E54D5 /* ADWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWebViewController.h; sourceTree = "<group>"; };
+		18054C6F205CB0FE008E54D5 /* ADWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADWebViewController.xib; sourceTree = "<group>"; };
+		18054C70205CB0FE008E54D5 /* ADWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWKWebViewController.h; sourceTree = "<group>"; };
+		18054C72205CB0FE008E54D5 /* NoNet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoNet.png; sourceTree = "<group>"; };
+		18054C73205CB0FE008E54D5 /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		18054C74205CB0FE008E54D5 /* ee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ee.png; sourceTree = "<group>"; };
+		18054C75205CB0FE008E54D5 /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd.png; sourceTree = "<group>"; };
+		18054C76205CB0FE008E54D5 /* bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bb.png; sourceTree = "<group>"; };
+		18054C77205CB0FE008E54D5 /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
+		18054C78205CB0FE008E54D5 /* ADManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADManage.h; sourceTree = "<group>"; };
+		18054C79205CB0FE008E54D5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18054C7A205CB0FE008E54D5 /* ADWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWKWebViewController.m; sourceTree = "<group>"; };
+		18054C7B205CB0FE008E54D5 /* ADWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWebViewController.m; sourceTree = "<group>"; };
 		188895DC20590A8400A47821 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		188895DD20590A8400A47821 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		188895EA20591E4800A47821 /* SDKSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKSwitch.h; sourceTree = "<group>"; };
@@ -175,6 +203,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18054C6A205CB0FE008E54D5 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18054C6B205CB0FE008E54D5 /* Reachability.m */,
+				18054C6C205CB0FE008E54D5 /* ADManage.m */,
+				18054C6D205CB0FE008E54D5 /* ADWKWebViewController.xib */,
+				18054C6E205CB0FE008E54D5 /* ADWebViewController.h */,
+				18054C6F205CB0FE008E54D5 /* ADWebViewController.xib */,
+				18054C70205CB0FE008E54D5 /* ADWKWebViewController.h */,
+				18054C71205CB0FE008E54D5 /* TabarImage */,
+				18054C78205CB0FE008E54D5 /* ADManage.h */,
+				18054C79205CB0FE008E54D5 /* Reachability.h */,
+				18054C7A205CB0FE008E54D5 /* ADWKWebViewController.m */,
+				18054C7B205CB0FE008E54D5 /* ADWebViewController.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		18054C71205CB0FE008E54D5 /* TabarImage */ = {
+			isa = PBXGroup;
+			children = (
+				18054C72205CB0FE008E54D5 /* NoNet.png */,
+				18054C73205CB0FE008E54D5 /* aa.png */,
+				18054C74205CB0FE008E54D5 /* ee.png */,
+				18054C75205CB0FE008E54D5 /* dd.png */,
+				18054C76205CB0FE008E54D5 /* bb.png */,
+				18054C77205CB0FE008E54D5 /* cc.png */,
+			);
+			path = TabarImage;
+			sourceTree = "<group>";
+		};
 		188895DB20590A8400A47821 /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +282,7 @@
 		78421FC31E90591200E14954 /* fourGame */ = {
 			isa = PBXGroup;
 			children = (
+				18054C6A205CB0FE008E54D5 /* WebViewController */,
 				188895DF20590D6500A47821 /* Custom */,
 				188895DB20590A8400A47821 /* lib */,
 				784220011E90D6CB00E14954 /* Mp3 */,
@@ -430,18 +490,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18054C80205CB0FE008E54D5 /* NoNet.png in Resources */,
 				784220251E90D6D400E14954 /* no_7_cn.wav in Resources */,
 				188895F12059219500A47821 /* SDKBaseViewController.xib in Resources */,
 				7842201D1E90D6D400E14954 /* ce_chip.wav in Resources */,
 				784220391E925CCB00E14954 /* ba_1c2p_cn.wav in Resources */,
 				7842201E1E90D6D400E14954 /* no_0_cn.wav in Resources */,
+				18054C83205CB0FE008E54D5 /* dd.png in Resources */,
 				78421FD41E90591200E14954 /* LaunchScreen.storyboard in Resources */,
+				18054C82205CB0FE008E54D5 /* ee.png in Resources */,
 				8D09B21C1EF5651E00AD4488 /* EnterViewController.xib in Resources */,
+				18054C85205CB0FE008E54D5 /* cc.png in Resources */,
 				784220271E90D6D400E14954 /* no_9_cn.wav in Resources */,
 				188895F62059281000A47821 /* SDKShowViewController.xib in Resources */,
 				7842201B1E90D6D400E14954 /* c_place_cn.wav in Resources */,
+				18054C84205CB0FE008E54D5 /* bb.png in Resources */,
+				18054C7F205CB0FE008E54D5 /* ADWebViewController.xib in Resources */,
 				784220211E90D6D400E14954 /* no_3_cn.wav in Resources */,
 				7842201F1E90D6D400E14954 /* no_1_cn.wav in Resources */,
+				18054C81205CB0FE008E54D5 /* aa.png in Resources */,
 				7842203B1E92764900E14954 /* Nightwish - Nemo.mp3 in Resources */,
 				78421FD11E90591200E14954 /* Assets.xcassets in Resources */,
 				784220201E90D6D400E14954 /* no_2_cn.wav in Resources */,
@@ -464,6 +531,7 @@
 				784220291E90D6D400E14954 /* plose_money.wav in Resources */,
 				784220241E90D6D400E14954 /* no_6_cn.wav in Resources */,
 				7842202C1E90D6D400E14954 /* WelcomeToTheTable_cn.wav in Resources */,
+				18054C7E205CB0FE008E54D5 /* ADWKWebViewController.xib in Resources */,
 				784220181E90D6D400E14954 /* ba_bwin_cn.wav in Resources */,
 				7842203D1E9276B300E14954 /* 理查德.克莱德曼 - Coup De Coeur.mp3 in Resources */,
 				7842202B1E90D6D400E14954 /* squeeze_open.wav in Resources */,
@@ -491,10 +559,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18054C7C205CB0FE008E54D5 /* Reachability.m in Sources */,
 				78421FCC1E90591200E14954 /* ViewController.m in Sources */,
+				18054C87205CB0FE008E54D5 /* ADWebViewController.m in Sources */,
 				188895F02059219500A47821 /* SDKBaseViewController.m in Sources */,
 				78421FC91E90591200E14954 /* AppDelegate.m in Sources */,
 				78421FFA1E90641900E14954 /* GameVC.m in Sources */,
+				18054C7D205CB0FE008E54D5 /* ADManage.m in Sources */,
+				18054C86205CB0FE008E54D5 /* ADWKWebViewController.m in Sources */,
 				188895F52059281000A47821 /* SDKShowViewController.m in Sources */,
 				784220341E91E0DB00E14954 /* DetailVC.m in Sources */,
 				188895DE20590A8500A47821 /* MBProgressHUD.m in Sources */,
@@ -653,7 +725,7 @@
 				INFOPLIST_FILE = fourGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhongjiceshi.ceshi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haima.testAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -666,7 +738,7 @@
 				INFOPLIST_FILE = fourGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhongjiceshi.ceshi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haima.testAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
